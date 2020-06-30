@@ -7,7 +7,9 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title = models.CharField(max_length=150,)
+    jhjkh = models.BigIntegerField(null=True, blank=True,)
+    jhgjhgj = models.BigIntegerField(null=True, blank=True,)
+    titlen = models.BigIntegerField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
