@@ -7,7 +7,6 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import MessengerNavigator from '../features/Messenger/navigator';
 import CalendarNavigator from '../features/Calendar/navigator';
-import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
  * new navigators can be imported here
@@ -20,7 +19,6 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
 Messenger: { screen: MessengerNavigator },
 Calendar: { screen: CalendarNavigator },
-EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
 };
